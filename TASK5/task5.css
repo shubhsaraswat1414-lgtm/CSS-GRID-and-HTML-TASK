@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 15px;
+    border: 2px solid #00695c;
+    background-color: #e0f2f1;
+}
+
+.box {
+    background-color: #26a69a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
+}

@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.fixed {
+    grid-template-columns: 200px 200px 200px;
+}
+
+.flexible {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+}

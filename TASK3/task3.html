@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fixed vs Flexible Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Fixed Columns (px)</h2>
+    <div class="container fixed">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>Flexible Columns (fr)</h2>
+    <div class="container flexible">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+    <link rel="stylesheet" href="task3.css">
+    <p>
+The fixed layout breaks faster on small screens because the column widths stay the same and do not shrink.
+</p>
+
+<p>
+The flexible layout adjusts automatically because fr units share the available space based on screen size.
+</p>
+
+<p>
+The fixed layout is risky because it can cause overflow and horizontal scrolling on smaller devices.
+</p>
+
+<p>
+Fixed columns can be useful for layouts where exact sizes are required, such as dashboards or tables.
+</p>
+
+<p>
+For a responsive website, fr units should be chosen because they adapt well to different screen sizes.
+</p>
+
+
+</body>
+</html>

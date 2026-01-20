@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid gray;
+    padding: 15px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
